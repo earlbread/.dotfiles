@@ -51,3 +51,5 @@ export CC=$(which gcc)
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
