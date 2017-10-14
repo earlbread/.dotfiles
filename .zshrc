@@ -1,4 +1,4 @@
-export ZSH=/Users/earl/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Theme
 ZSH_THEME="refined"
