@@ -37,7 +37,7 @@ alias vim='nvim'
 
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
+  eval "$(pyenv init - --no-rehash)"
 fi
 
 # z.sh
