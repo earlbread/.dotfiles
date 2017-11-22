@@ -28,7 +28,7 @@ setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
 # ls alias
 alias l='ls -alh'
-alias ll= 'ls -lh'
+alias ll='ls -lh'
 
 # vim alias
 alias vim='Vim'
