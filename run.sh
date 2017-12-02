@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if [ -f ~/.zshrc ]; then
+if [ -f ~/.zshrc ] && [ ! -L ~/.zshrc ]; then
     mv ~/.zshrc ~/.zshrc.local
 fi
 ln -sf .dotfiles/.zshrc ~/.zshrc
