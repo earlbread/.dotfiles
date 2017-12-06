@@ -53,3 +53,7 @@ if [ -f ~/.zshrc.local ]; then
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+function lb() {
+    vim ~/logbook/$(date '+%Y-%m-%d').md
+}
