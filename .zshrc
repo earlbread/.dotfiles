@@ -8,6 +8,9 @@ plugins=(git docker)
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
+# Add Local Path
+export PATH="$PATH:$HOME/.local/bin"
+
 # History
 HISTSIZE=100000
 SAVEHIST=100000
