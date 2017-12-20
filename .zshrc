@@ -3,7 +3,7 @@ export ZSH=~/.oh-my-zsh
 # Theme
 ZSH_THEME="refined"
 # Plugins
-plugins=(git docker)
+plugins=(git gitfast docker)
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
