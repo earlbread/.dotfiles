@@ -11,6 +11,10 @@ source $ZSH/oh-my-zsh.sh
 # Add Local Path
 export PATH="$PATH:$HOME/.local/bin"
 
+# Locale
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # History
 HISTSIZE=100000
 SAVEHIST=100000
