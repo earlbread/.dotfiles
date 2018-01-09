@@ -42,6 +42,11 @@ alias vim='Vim'
 alias vi='nvim'
 alias vim='nvim'
 
+# hub
+if which hub > /dev/null; then
+    alias git=hub
+fi
+
 # pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init - --no-rehash)"
