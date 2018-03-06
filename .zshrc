@@ -10,6 +10,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Add Local Path
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/bin"
 
 # Locale
 export LC_ALL=en_US.UTF-8
