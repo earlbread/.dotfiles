@@ -42,6 +42,7 @@ alias ll='ls -lh'
 alias vim='Vim'
 alias vi='nvim'
 alias vim='nvim'
+alias vimdiff='nvim -d'
 
 # hub
 if which hub > /dev/null; then
