@@ -77,3 +77,7 @@ fi
 function lb() {
     vim ~/logbook/$(date '+%Y-%m-%d').md
 }
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
