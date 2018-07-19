@@ -66,12 +66,6 @@ if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
 
-# virtualenvwrapper
-if which virtualenvwrapper.sh > /dev/null; then
-    WORKON_HOME=$HOME/.virtualenvs
-    source $(which virtualenvwrapper.sh)
-fi
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 function lb() {
