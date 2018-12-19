@@ -62,6 +62,10 @@ fi
 # CC
 export CC=$(which gcc)
 
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
