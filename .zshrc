@@ -66,6 +66,9 @@ export CC=$(which gcc)
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+# Git
+export GIT_EDITOR=nvim
+
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
