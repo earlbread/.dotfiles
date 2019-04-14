@@ -49,11 +49,6 @@ if which hub > /dev/null; then
     alias git=hub
 fi
 
-# pyenv
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init - --no-rehash)"
-fi
-
 # z.sh
 if [ -d ~/z ]; then
     source ~/z/z.sh
