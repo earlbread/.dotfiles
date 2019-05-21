@@ -73,3 +73,6 @@ fi
 function lb() {
     vim ~/logbook/$(date '+%Y-%m-%d').md
 }
+
+# GNU Findutils
+PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
