@@ -3,7 +3,7 @@ export ZSH=~/.oh-my-zsh
 # Theme
 ZSH_THEME="refined"
 # Plugins
-plugins=(git gitfast docker)
+plugins=(git gitfast docker kubectl)
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
