@@ -76,3 +76,6 @@ function lb() {
 
 # GNU Findutils
 PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+
+# Binutils
+PATH="/usr/local/opt/binutils/bin:$PATH"
