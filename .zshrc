@@ -44,11 +44,6 @@ alias vi='nvim'
 alias vim='nvim'
 alias vimdiff='nvim -d'
 
-# hub
-if which hub > /dev/null; then
-    alias git=hub
-fi
-
 # z.sh
 if [ -d ~/z ]; then
     source ~/z/z.sh
