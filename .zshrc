@@ -74,3 +74,15 @@ PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
 
 # Binutils
 PATH="/usr/local/opt/binutils/bin:$PATH"
+
+# Use brew ruby
+PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sejung/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sejung/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sejung/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sejung/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PATH="$PATH:/Users/sejung/.dotnet/tools"
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
