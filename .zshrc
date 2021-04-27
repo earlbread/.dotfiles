@@ -44,6 +44,9 @@ alias vi='nvim'
 alias vim='nvim'
 alias vimdiff='nvim -d'
 
+# nvim True color
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
+
 # z.sh
 if [ -d ~/z ]; then
     source ~/z/z.sh
