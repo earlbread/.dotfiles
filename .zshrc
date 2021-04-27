@@ -86,3 +86,4 @@ if [ -f '/Users/sejung/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . 
 
 export PATH="$PATH:/Users/sejung/.dotnet/tools"
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+export PATH="/usr/local/Homebrew/bin:$PATH"
