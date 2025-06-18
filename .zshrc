@@ -3,7 +3,7 @@ export ZSH=~/.oh-my-zsh
 # Theme
 ZSH_THEME="refined"
 # Plugins
-plugins=(git gitfast docker kubectl)
+plugins=(git gitfast docker asdf)
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -90,3 +90,16 @@ if [ -f '/Users/sejung/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . 
 export PATH="$PATH:/Users/sejung/.dotnet/tools"
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 export PATH="/usr/local/Homebrew/bin:$PATH"
+eval "$(direnv hook zsh)"
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
+source "$HOME/.cargo/env"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+#export SDKMAN_DIR="$HOME/.sdkman"
+#[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Added by Windsurf
+export PATH="$HOME/.codeium/windsurf/bin:$PATH"
